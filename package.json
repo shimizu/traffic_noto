@@ -1,0 +1,23 @@
+{
+  "name": "purejs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@deck.gl/google-maps": "^8.9.33",
+    "@loaders.gl/core": "^3.4.14",
+    "@loaders.gl/json": "^4.0.4",
+    "@loaders.gl/pmtiles": "^4.0.4",
+    "@loaders.gl/zip": "^4.0.4",
+    "d3": "^7.8.5",
+    "deck.gl": "^8.9.33"
+  }
+}
